@@ -1,9 +1,3 @@
-"""Tool 2: code_executor — runs a Python snippet in a fresh subprocess with
-a timeout. NOT a security sandbox (same OS permissions as the host
-process) — only appropriate for code you trust, e.g. what the model just
-wrote for a benign request.
-"""
-
 import os
 import subprocess
 import sys
